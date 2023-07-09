@@ -1,0 +1,48 @@
+.two-heading{
+    font-size: 1.55rem;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8.1875rem;
+}
+.simple-two-text{
+    font-size: 1rem;
+    font-weight: 500;
+    color: gray;
+}
+.heading-creativity{
+    font-size: 1.85rem;
+    color: black;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.creativity-txt{
+    font-size: 1rem;
+    color: gray;
+    padding: 2.5625rem   1.875rem;
+    line-height: 1.4rem;
+    padding-top: 5rem;
+    
+}
+.creativity{
+    border: solid .0125rem gray;
+    margin-top: 2.1875rem;
+    width: max-content;
+    border-radius: .625rem;
+    
+}
+.sec-two-main{
+    display: flex;
+    justify-content: space-around;
+}
+.creativity:hover{
+    box-shadow:  red  0rem 0rem  .3125rem;
+    cursor: pointer;
+    
+}
+@media(max-width:37.5rem){
+    .sec-two-heading{
+        display: block;
+    }
+}
