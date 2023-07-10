@@ -47,8 +47,16 @@
     .nav ul li a{
         display: none;
     }
+    .hamburger span:hover{
+        cursor: pointer;
+        
+    }
     .hamburger span{
         margin-right: 1.5625rem;
+    }
+    *{
+        padding: 0;
+        margin: 0;
     }
 }
 .header-img {

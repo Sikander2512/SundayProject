@@ -81,9 +81,16 @@
     transition: 1s;
     cursor: pointer;
 }
-@media(max-width:37.5rem){
+@media(max-width:600px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
     .section-three{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
     .education{
         margin-left: 38px;

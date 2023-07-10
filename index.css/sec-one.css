@@ -58,14 +58,21 @@
     color: white;
 }
 .sec-img{
-    width: 400px;
+    width: 25rem;
 }
 .sec-img img{
     width: 100%;
     border-radius: .625rem;
 }
-@media(max-width:37.5rem){
-    .sec-one{
-        display: block;
+@media(max-width:600px){
+    *{
+        padding: 0;
+        margin: 0;
     }
+    .sec-one{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
 }
