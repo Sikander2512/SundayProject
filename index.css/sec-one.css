@@ -87,7 +87,7 @@
         margin-top: 0px;
         justify-content: center;
         align-items:center ;
-        width: 19.7625rem;
+        width: 31.25rem;
         background: url('../Pics/background.jpg');
         background-size: cover;
         background-position: center;
@@ -98,14 +98,14 @@
     }
     
     .sec-txt{
-        width:18.75rem;
+        width:450px;
         margin-left: 2rem;
     }
     .sec-txt  sec-one-txt{
         width: 100%;
     }
     .sec-img{
-        width: 17.5rem;
+        width: 25rem;
     }
     .sec-img img{
         width: 100%;

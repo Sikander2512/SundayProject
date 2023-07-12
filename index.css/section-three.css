@@ -89,7 +89,7 @@
     .section-three{
         display: flex;
         flex-direction: column;
-        width: 19.375rem;
+        width: 31.25rem;
         margin-left: 16px;
     }
     .section-three div{
@@ -106,6 +106,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 19.625rem;
-    }
+        width: 31.25rem;
+       }
 }
