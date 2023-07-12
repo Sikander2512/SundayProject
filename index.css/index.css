@@ -53,14 +53,16 @@
         margin: 0;
     }
     .nav{
-        width: 22.985rem;
+        display: flex;
+        width: 23.875rem;
         margin-bottom: 0rem;
         position: fixed;
-    
         right: 0;
-        left:0;
+        left: 0;
         top: 0;
         bottom: 15;
+        position: absolute;
+        background: black;
     }
     .header-img{
         width: 7rem;
