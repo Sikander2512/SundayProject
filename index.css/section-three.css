@@ -81,7 +81,7 @@
     transition: 1s;
     cursor: pointer;
 }
-@media(max-width:600px){
+@media(max-width:500px){
     *{
         padding: 0;
         margin: 0;
@@ -89,14 +89,23 @@
     .section-three{
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
+        width: 19.375rem;
+        margin-left: 16px;
     }
-    .education{
-        margin-left: 38px;
+    .section-three div{
+        width: 100%;
     }
-    .age{
-        margin-left: 17px;
+    .section-three-simple-txt{
+        width: 300px;
     }
-    
+    .two-heading{
+        width:310px;
+    }
+    .contanier{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 19.625rem;
+    }
 }

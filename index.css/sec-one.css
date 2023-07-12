@@ -1,8 +1,9 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-.sec-one{
+
+.sec-one {
     margin-top: 5.09rem;
     background: url('../Pics/background.jpg');
     background-size: cover;
@@ -14,74 +15,121 @@
     column-gap: 13.5rem;
 
 }
-.sec-one-txt{
+
+.sec-one-txt {
     font-size: 1.675rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    color: white;   
+    color: white;
 }
-.sec-button{
-    grid-template-columns: 12.9rem  1.875rem  1.875rem  1.875rem 1.875rem ;
-    display: grid; 
+
+.sec-button {
+    grid-template-columns: 12.9rem 1.875rem 1.875rem 1.875rem 1.875rem;
+    display: grid;
     column-gap: .925rem;
     margin-top: 4rem;
 }
-.sec-button img{
+
+.sec-button img {
     width: 100%;
 }
-.sec-button-txt{
-    padding: 1.09375rem  0.25rem;
+
+.sec-button-txt {
+    padding: 1.09375rem 0.25rem;
     font-size: 1.15rem;
     font-weight: bolder;
     color: white;
-    background-color:rgb(253, 86, 42);
+    background-color: rgb(253, 86, 42);
     border: none;
     border-radius: .3125rem;
     margin-right: .9375rem;
     margin-top: -0.7125rem;
 }
-.sec-button-txt:hover{
+
+.sec-button-txt:hover {
     opacity: .5;
-    background-color:rgb(191, 41, 2);
+    background-color: rgb(191, 41, 2);
     cursor: pointer;
-    transition: 1s ;
+    transition: 1s;
 }
-.sec-txt-heading{
+
+.sec-txt-heading {
     font-size: 4.4375rem;
     font-weight: bolder;
     color: rgb(253, 86, 42);
     font-family: Arial, Helvetica, sans-serif;
 }
-.simple-txt{
+
+.simple-txt {
     font-size: 1.3875rem;
     font-weight: 500;
     color: white;
 }
-.sec-img{
+
+.sec-img {
     width: 25rem;
 }
-.sec-img img{
+
+.sec-img img {
     width: 100%;
     border-radius: .625rem;
 }
-@media(max-width:600px){
+
+@media(max-width:500px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .sec-one {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 0px;
+        justify-content: center;
+        align-items:center ;
+        width: 19.7625rem;
+        background: url('../Pics/background.jpg');
+        background-size: cover;
+        background-position: center;
+    }
     *{
         padding: 0;
         margin: 0;
     }
-    .sec-one{
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-        flex: 1;
+    
+    .sec-txt{
+        width:18.75rem;
+        margin-left: 2rem;
+    }
+    .sec-txt  sec-one-txt{
         width: 100%;
     }
     .sec-img{
-        width: 19rem;
+        width: 17.5rem;
     }
     .sec-img img{
         width: 100%;
-        border-radius: 1.55rem;
     }
+    .sec-txt-heading {
+        font-size: 3.04375rem;
+        font-weight: bolder;
+        color: rgb(253, 86, 42);
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    
+.sec-button{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    column-gap: .6rem;
+    margin-left: 2rem;
+    
+}
+.sec-button-txt {
+font-size: 15px;
+font-weight: bold;
+padding: 0px 1.2625rem;
+}
 }
