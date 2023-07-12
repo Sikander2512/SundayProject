@@ -89,23 +89,23 @@
     .section-three{
         display: flex;
         flex-direction: column;
-        width: 25rem;
+        width: 21.875rem;
         margin-left: 16px;
     }
     .section-three div{
         width: 100%;
     }
     .section-three-simple-txt{
-        width: 300px;
+        width: 18.75rem;
     }
     .two-heading{
-        width:310px;
+        width:250pxpx;
     }
     .contanier{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 25rem;
+        width: 21.875rem;
        }
 }
