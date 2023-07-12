@@ -53,18 +53,21 @@
         flex-direction: column;
         margin-left: 3rem;
         width: 18.75rem;
-        justify-content: center;
-        align-items: center;
+        margin-left: -0.9rem;
           
     }
     .creativity{
         width: 18.75rem;
          display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    
+
     }
     .sec-two-heading{
-       width: 18.75rem; 
+       width: 19rem;
+       margin-left: -0.9rem;
+    }
+    .two-heading{
+        margin-left: -0.6rem;
     }
 }

@@ -107,14 +107,15 @@
         justify-content: center;
         align-items: center;
         width: 21.875rem;
-        margin-left: 1rem;
+        margin-left: .5rem;
        }
        .section-three-img{
-        width: 18.75rem;
-        margin-left: 1rem;
+        
+        margin-left: -0.5rem;
+        
        }
        .section-three-img img{
-        width: 100%;
+        width: 19rem;
 
        }
 }
