@@ -81,7 +81,7 @@
         margin: 0;
     }
 
-    .sec-one {
+    /* .sec-one {
         display: flex;
         flex-direction: column-reverse;
         margin-top: 0px;
@@ -90,7 +90,7 @@
         width: 25rem;
         background: url('../Pics/background.jpg');
         background-size: cover;
-        background-position: center;
+        background-position: center; */
     }
     *{
         padding: 0;
@@ -105,7 +105,7 @@
         width: 100%;
     }
     .sec-img{
-        width: 15.625rem;
+        width: 17.5rem;
     }
     .sec-img img{
         width: 100%;
@@ -116,6 +116,14 @@
         color: rgb(253, 86, 42);
         font-family: Arial, Helvetica, sans-serif;
     
+    }
+    .sec-one{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        margin-top: .0625rem;
+
     }
     
     
