@@ -48,6 +48,9 @@
     .header-txt{
         display: none;
     }
+    .hamburger span{
+        padding-top: 0rem;
+    }
     *{
         padding: 0;
         margin: 0;
