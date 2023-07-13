@@ -99,7 +99,7 @@
         width: 18.75rem;
     }
     .two-heading{
-        width:250pxpx;
+        width:250px;
     }
     .contanier{
         display: flex;
@@ -115,7 +115,24 @@
         
        }
        .section-three-img img{
-        width: 19.5rem;
+        width: 21em;
 
        }
+       .age{
+        display: grid;
+        margin-left: 0.21rem;
+        margin-top: .9375rem;
+        margin-bottom: -1.5rem;
+       }
+       .education{
+        display: grid;
+        margin-left: 0.2rem;
+        margin-bottom: -1.8rem;
+       }
+       .freelance{
+        display: grid;
+        margin-left:0.5rem;
+        margin-top: .9375rem;
+       }
+   
 }

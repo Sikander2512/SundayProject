@@ -35,11 +35,11 @@
     height: .3125rem;
     background: white;
     margin-top: .275rem;
-    margin-right: 1rem;
+    margin-right: 1.5rem;
 
     
 }
-@media(min-width:600px){
+@media(min-width:550px){
     .hamburger span{
         display: none;
     }
