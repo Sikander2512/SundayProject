@@ -52,7 +52,7 @@
         display: flex;
         flex-direction: column;
         margin-left: 3rem;
-        width: 18.75rem;
+        width: 19.5rem;
         margin-left: -0.9rem;
         justify-content: flex-start;
         align-items: flex-start;
@@ -73,6 +73,14 @@
        margin-left: -0.9rem;
     }
     .two-heading{
-        margin-left: -0.6rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    
+    }
+    .simple-two-text{
+        width: 19rem;
     }
 }
